@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+ 
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 20px 5%;
+    background-color: wheat;
+ 
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+/*header*/
+
+
+header{
+
+margin:auto;
+
+
+}
+
+header>.interface{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/*menu*/
+
+
+header nav ul {
+  
+list-style: none;
+text-align: center;
+padding: 20px 20px 20px;
+
+
+}
+
+header nav ul li{
+   
+    margin-top: 10px;
+    display: inline-block;
+     padding: 0 40px;
+     font-size: 25px;
+    
+
+
+}
+
+
+header .menu-desktop ul li a{
+ color: black;   
+text-decoration: none;
+
+
+
+
+
+}
+
+header .menu-desktop ul li a:hover{
+    color: gray;
+}
+
+header .img-topo{
+    
+    margin-top: 100px;
+    text-align: center;
+
+    
+
+}
+
+header .img-topo img{
+
+    border-radius: 500px;
+}
+
+
+.btn-reserva button{
+
+    padding: 10px 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    margin-right: 20px;
+
+}
+
+.btn-reserva a{
+
+
+text-decoration: none;
+color: white;
+font-size: 20px;
+
+}
+
+
+.btn-reserva a:hover{
+
+    color: black;
+}
+
+
+
+
+.title-2 h2{
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+
+.btn{ 
+    text-align:center;
+    margin-top: 50px;
+}
+
+.pedido {
+    background-color: gray;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: none;
+    }
+
+.pedido a{
+cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.pedido a:hover{
+
+    color: black;
+}
+
+
+/*menu com java*/
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.men {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+
+.men h1 {
+   padding: 50px;
+   padding-top: 100px;
+    color: #FF5733;
+}
+
+.men ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.men li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+}
+
+.men li:hover {
+    background-color: #FF5733;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*footer*/
+
+footer .contact{
+    padding: 80px 4%;
+  
+    margin-top: 30px;
+    
+}
+
+footer .contact p{
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+footer .contact  i{
+    margin: 10px;
+}
+
+footer .contact i{
+    color: green;
+  font-size: 22px;
+}
+
+footer .contact span{
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 15px solid gray;
+}
+
+footer .end p{
+text-transform: none;
+font-size: 15px;
+}
+
+.creditos a{
+text-decoration: none;
+color: black;
+font-size: 15px;
+}
+
+.creditos a:hover{
+    color: white;
+}
+
+/*responsividade*/
+
+@media screen and (max-width:1280px){
+    footer{
+        .tel i{
+           display: block;
+            color: green;
+              font-size: 18px;}
+
+                .end span,p{
+
+                    display: block;
+                     padding: 20px;
+                  
+                }
+    }
+          
+        
+    }
+
+header{
+    .img-topo img{
+
+       width:300px;
+    }
+
+
+}
+
